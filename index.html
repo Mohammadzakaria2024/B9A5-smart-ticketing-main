@@ -21,6 +21,7 @@
       }
     }
   </script>
+  <script src="index.js" defer></script>
 </head>
 <body>
     <div class="navbar bg-base-100 w-[1170px] alin-center m-auto mt-2">
@@ -150,7 +151,7 @@
                  
                  <div class="flex">
     
-                  <div class="btn bg-green-50  text-emerald-400  "><i class="fa-solid fa-chair"></i> <spam>40 </spam><p>Seats left</p>
+                  <div class="btn bg-green-50  text-emerald-400  "><i class="fa-solid fa-chair"></i> <spam id="left-seat">40 </spam><p>Seats left</p>
                   </div>
                  </div>
               
@@ -220,94 +221,95 @@
         </div>
         <div class="flex justify-between m-4">
           <h1>A</h1>
-         <button class="btn px-12">A1</button>
-         <button class="btn px-12 mr-8">A2</button>
-         <button class="btn px-12">A3</button>
-         <button class="btn px-12">A4</button>
+        <div  class="btn px-12"> <button  class="Baton-name">A1</button></div>
+        <div  class="btn px-12 mr-8"> <button class="Baton-name">A2</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">A3</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">A4</button></div>
+         
          
 
 
        </div>
        <div class="flex justify-between m-4">
         <h1>B</h1>
-       <button class="btn px-12">B1</button>
-       <button class="btn px-12 mr-8">B2</button>
-       <button class="btn px-12">B3</button>
-       <button class="btn px-12">B4</button>
+        <div  class="btn px-12"> <button  class="Baton-name">B1</button></div>
+        <div  class="btn px-12 mr-8"> <button class="Baton-name">B2</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">B3</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">B4</button></div>
        
 
 
      </div><div class="flex justify-between m-4">
       <h1>C</h1>
-     <button class="btn px-12">C1</button>
-     <button class="btn px-12 mr-8">C2</button>
-     <button class="btn px-12">C3</button>
-     <button class="btn px-12">C4</button>
+      <div  class="btn px-12"> <button  class="Baton-name">C1</button></div>
+        <div  class="btn px-12 mr-8"> <button class="Baton-name">C2</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">C3</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">C4</button></div>
      
 
-
+ 
    </div><div class="flex justify-between m-4">
     <h1>D</h1>
-   <button class="btn px-12">D1</button>
-   <button class="btn px-12 mr-8">D2</button>
-   <button class="btn px-12">D3</button>
-   <button class="btn px-12">D4</button>
+    <div  class="btn px-12"> <button  class="Baton-name">D1</button></div>
+        <div  class="btn px-12 mr-8"> <button class="Baton-name">D2</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">D3</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">D4</button></div>
    
 
 
  </div>
  <div class="flex justify-between m-4">
   <h1>E</h1>
- <button class="btn px-12">E1</button>
- <button class="btn px-12 mr-8">E2</button>
- <button class="btn px-12">E3</button>
- <button class="btn px-12">E4</button>
+  <div  class="btn px-12"> <button  class="Baton-name">E1</button></div>
+        <div  class="btn px-12 mr-8"> <button class="Baton-name">E2</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">E3</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">E4</button></div>
  
 
 
 </div><div class="flex justify-between m-4">
   <h1>F</h1>
- <button class="btn px-12">F1</button>
- <button class="btn px-12 mr-8">F2</button>
- <button class="btn px-12">F3</button>
- <button class="btn px-12">F4</button>
+  <div  class="btn px-12"> <button  class="Baton-name">F1</button></div>
+        <div  class="btn px-12 mr-8"> <button class="Baton-name">F2</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">F3</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">F4</button></div>
  
 
 
 </div><div class="flex justify-between m-4">
   <h1>G</h1>
- <button class="btn px-12">G1</button>
- <button class="btn px-12 mr-8">G2</button>
- <button class="btn px-12">G3</button>
- <button class="btn px-12">G4</button>
+  <div  class="btn px-12"> <button  class="Baton-name">G1</button></div>
+        <div  class="btn px-12 mr-8"> <button class="Baton-name">G2</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">G3</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">G4</button></div>
  
 
 
 </div><div class="flex justify-between m-4">
   <h1>H</h1>
- <button class="btn px-12">H1</button>
- <button class="btn px-12 mr-8">H2</button>
- <button class="btn px-12">H3</button>
- <button class="btn px-12">H4</button>
+  <div  class="btn px-12"> <button  class="Baton-name">H1</button></div>
+        <div  class="btn px-12 mr-8"> <button class="Baton-name">H2</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">H3</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">H4</button></div>
  
 
 
 </div><div class="flex justify-between m-4">
-  <h1>I</h1>
- <button class="btn px-12">I1</button>
- <button class="btn px-12 mr-8">I2</button>
- <button class="btn px-12">I3</button>
- <button class="btn px-12">I4</button>
+  <h1 class="mr-2">I</h1>
+  <div  class="btn px-12"> <button  class="Baton-name">I1</button></div>
+        <div  class="btn px-12 mr-8"> <button class="Baton-name">I2</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">I3</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">I4</button></div>
  
 
 
 </div>
 <div class="flex justify-between m-4">
   <h1>J</h1>
- <button class="btn px-12">J1</button>
- <button class="btn px-12 mr-8">J2</button>
- <button class="btn px-12">J3</button>
- <button class="btn px-12">J4</button>
+  <div  class="btn px-12"> <button  class="Baton-name">J1</button></div>
+        <div  class="btn px-12 mr-8"> <button class="Baton-name">J2</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">J3</button></div>
+        <div  class="btn px-12"> <button class="Baton-name">J4</button></div>
  
 
 
@@ -325,7 +327,7 @@
         <div class="   m-4 bg-slate-100 rounded">
           <div class="flex justify-between">
             <div>
-              <p class="text-sm p-4 font-bold">Seat <spam class="bg-emerald-400 p-2 rounded-md">0</spam></p>
+              <p class="text-sm p-4 font-bold">Seat <spam id="total-seat" class="bg-emerald-400 p-2 rounded-md">0</spam></p>
     
             </div>
             <div>
@@ -414,8 +416,30 @@
             <p>P-Ticket is a digital platform to make your <br>daily commuting better.</p>
           </aside> 
           <nav>
-            <h6 class="footer-title">Download our app</h6> 
-            <img src="images/playstore.png" alt="playstore.png">
+
+            <aside>
+           <div>
+            <div>
+              <h1 class=" text-3xl font-serif">Download our app</h1>
+            </div>
+            <div>
+
+              <div class="flex m-4 ">
+                <img src="images/playstore.png" alt="playstore.png">
+                <div>GET IT ON <br><spam class="font-bold">Google Play</spam></div>
+                <div></div>
+              </div>
+            </div>
+
+           </div>
+              
+              
+            </aside> 
+
+
+          
+            
+              
               
               
               
