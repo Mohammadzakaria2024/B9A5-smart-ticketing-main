@@ -21,7 +21,7 @@
       }
     }
   </script>
-  <script src="index.js" defer></script>
+ 
 </head>
 <body>
     <div class="navbar bg-base-100 w-[1170px] alin-center m-auto mt-2">
@@ -133,7 +133,7 @@
       <div class="w-[1170px] alin-center text-center m-auto mb-12  text-3xl">
         <button class="btn btn-outline btn-info">See All Offers</button>
       </div>
-      <div class="bg-slate-100 rounded-3xl  border-t-2 border-green-400 h-[3000px]">
+      <div class="bg-slate-100 rounded-3xl  border-t-2 border-green-400 h-[1600px]">
         <div class="w-[1170px]  text-center m-auto mb-12 pt-28 text-3xl">
           <h1 class="font-extrabold">P.H Paribahan</h1>
           <p class=" text-sm p-4">Yes, you can run unit tests and view the results directly within the app. <br>The integrated testing features allow for a streamlined .</p>
@@ -194,7 +194,7 @@
             <div class="text-center m-auto alin-center ">
               <div class="text-center m-auto alin-center">
                 <img src="images/fare.png" class="p-8" alt="fare.png">
-                <h2 class="card-title text-3xl font-bold ">550 Taka</h2>
+                <h2 class="card-title text-3xl font-bold "><spam class="Price">550</spam> Taka</h2>
                 <h5 class="text-sm">Per Seat</h5>
               </div>
             </div>
@@ -223,7 +223,7 @@
           <h1>A</h1>
         <div  class="btn px-12"> <button  class="Baton-name">A1</button></div>
         <div  class="btn px-12 mr-8"> <button class="Baton-name">A2</button></div>
-        <div  class="btn px-12"> <button class="Baton-name">A3</button></div>
+        <div  class="btn px-12"> <button id="button" class="Baton-name">A3</button></div>
         <div  class="btn px-12"> <button class="Baton-name">A4</button></div>
          
          
@@ -339,19 +339,8 @@
     
             </div>
           </div>
-          <div class="flex justify-between border-dashed border-b border-black">
-            <div>
-              <p class="text-sm p-4 ">Seat </p>
-    
-            </div>
-            <div>
-              <p class="text-sm p-4 ">Class</p>
-    
-            </div>
-            <div>
-              <p class="text-sm p-4 ">Price</p>
-    
-            </div>
+          <div class="flex justify-between border-dashed border-b border-black text-sm p-4 ">
+            <div class="div"></div>
           </div>
           <div class="flex justify-between">
             <div>
@@ -449,6 +438,6 @@
         
       </div>
     
-      
+      <script src="index.js" defer></script>
 </body>
 </html>
