@@ -8,8 +8,9 @@ for (const btn of allbtn) {
     const setname = event.target.innerText;
 
     const seletediv = document.querySelector('.div'); // Assuming you have an element with class 'div'
-    seletediv.classList.add("flex");
+    
     const div1 = document.createElement("div");
+    div1.classList.add("seat");
     const p1 = document.createElement("p");
     const p2 = document.createElement("p");
     const p3 = document.createElement("p");
